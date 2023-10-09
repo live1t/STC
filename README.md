@@ -1,7 +1,7 @@
 # STC
 ***Python Data Pipeline for “XXXX” Paper Data Analysis***
 ***Written for Python in Jupyter*** 
-*** Licence information here***
+
 
 This set of programs processes raw Ca2+ imaging data and raw mouse behavioural data to: (i) identify place cells in the raw Ca2+ imaging data; (iii) determine rate maps for the activities of each cell in each session; and (iv) determine the correlations between rate maps across sessions. 
 
