@@ -7,7 +7,7 @@ This set of programs processes raw Ca2+ imaging data and raw mouse behavioural d
 
 Program 1 takes as input the raw Ca2+ imaging data (output by XXXX in .csv form) and the raw behavioral data (output by XXX in .xslx form), and cleans the data, including interpolating values of the behavioural data at the Ca2+ imaging times (as the Ca2+ data and behavioural data are sampled at different rates).
 
-Program 2 takes as input the cleaned data from program 1, and labels the cells in the Ca2+ data as either place cells or not place cells based on a comparison of their spatial information to the spatial information of shuffled data. 
+Program 2 takes as input the cleaned data from program 1, and labels the cells in the Ca2+ data as either place cells or not place cells based on a comparison of their spatial information to the spatial information of shuffled data. Place cell identification is based on random shuffles, so it might not match exactly.
 
 Program 3 (there are two versions, depending on whether 4 or 6 behavioural sessions are used) takes as input the cleaned data from program 1 and the place cell identification from program 2, determines the total per-session activity for each cell, and creates a combined table of the total activity and the place cell identification. 
 
