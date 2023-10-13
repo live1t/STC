@@ -1,5 +1,5 @@
 # STC
-**Python Data Pipeline for “XXXX” Paper Data Analysis**
+**Python Data Pipeline for “Synaptic tagging and capture underlie neuronal co-allocation and temporal association memory in behaving mice” Paper Data Analysis**
 **Written for Python in Jupyter** 
 
 
