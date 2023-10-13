@@ -14,5 +14,3 @@ Program 3 (there are two versions, depending on whether 4 or 6 behavioural sessi
 Program 4 (there are two versions, depending on whether 4 or 6 behavioural sessions are used) takes as input the cleaned data from program 1 for all the sessions for a mouse, determines the rate maps for each cell, and performs Gaussian smoothing on the rate maps.  
 
 Program 5 (there are two versions, depending on whether 4 or 6 behavioural sessions are used) takes as input the Gaussian smoothed rate maps for all the sessions for a mouse, and determines the session 1-3 correlation and session 2-4 correlation. It also plots the smoothed rate maps for a given cell.
-
-Program 6 takes the output of program 3 and combines it with the output of program 5 to produce a table that includes, for each cell of a mouse: cell identity; place cell identification; session correlations; and total activity per session.   
