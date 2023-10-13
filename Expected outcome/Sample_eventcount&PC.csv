@@ -1,0 +1,136 @@
+,cellID,PlaceCellS1,PlaceCellS2,PlaceCellS3,PlaceCellS4,Session1,Session2,Session3,Session4
+0, C000,Not place cell,Not place cell,Not place cell,Not place cell,10,1,13,11
+1, C001,Not place cell,Not place cell,Not place cell,Not place cell,4,1,3,3
+2, C002,Not place cell,Not place cell,Not place cell,Not place cell,7,0,2,0
+3, C003,Not place cell,Place cell,Place cell,Place cell,3,0,5,4
+4, C004,Not place cell,Not place cell,Not place cell,Not place cell,9,2,16,0
+5, C005,Not place cell,Not place cell,Not place cell,Not place cell,19,2,11,16
+6, C006,Not place cell,Not place cell,Not place cell,Not place cell,11,3,11,4
+7, C007,Not place cell,Place cell,Place cell,Place cell,14,2,4,0
+8, C008,Not place cell,Not place cell,Not place cell,Not place cell,13,0,4,0
+9, C009,Not place cell,Not place cell,Not place cell,Not place cell,16,0,5,2
+10, C010,Not place cell,Not place cell,Not place cell,Not place cell,2,0,0,0
+11, C011,Not place cell,Not place cell,Not place cell,Not place cell,18,2,7,0
+12, C012,Not place cell,Place cell,Place cell,Place cell,12,0,8,0
+13, C013,Not place cell,Not place cell,Not place cell,Not place cell,7,1,12,2
+14, C014,Not place cell,Not place cell,Not place cell,Not place cell,1,0,5,8
+15, C015,Not place cell,Not place cell,Not place cell,Not place cell,2,1,5,0
+16, C016,Not place cell,Place cell,Place cell,Place cell,13,1,12,0
+17, C017,Not place cell,Not place cell,Not place cell,Not place cell,11,2,3,0
+18, C018,Not place cell,Not place cell,Not place cell,Not place cell,7,1,1,0
+19, C019,Not place cell,Not place cell,Not place cell,Not place cell,16,1,11,3
+20, C020,Not place cell,Not place cell,Not place cell,Not place cell,17,1,6,0
+21, C021,Not place cell,Place cell,Not place cell,Place cell,9,1,3,0
+22, C022,Not place cell,Not place cell,Not place cell,Not place cell,13,0,2,0
+23, C023,Not place cell,Not place cell,Not place cell,Not place cell,20,1,12,2
+24, C024,Not place cell,Not place cell,Not place cell,Not place cell,1,0,0,0
+25, C025,Not place cell,Place cell,Place cell,Place cell,39,1,16,0
+26, C026,Not place cell,Not place cell,Not place cell,Not place cell,19,1,28,5
+27, C027,Not place cell,Not place cell,Not place cell,Not place cell,45,0,12,1
+28, C028,Not place cell,Not place cell,Not place cell,Not place cell,15,1,13,0
+29, C029,Not place cell,Not place cell,Not place cell,Not place cell,32,1,18,5
+30, C030,Place cell,Not place cell,Not place cell,Not place cell,16,2,8,0
+31, C031,Not place cell,Not place cell,Not place cell,Not place cell,30,0,4,0
+32, C032,Not place cell,Place cell,Place cell,Place cell,13,3,5,3
+33, C033,Not place cell,Not place cell,Not place cell,Not place cell,25,1,10,0
+34, C034,Not place cell,Not place cell,Not place cell,Not place cell,26,2,9,0
+35, C035,Not place cell,Not place cell,Not place cell,Not place cell,11,3,2,0
+36, C036,Not place cell,Place cell,Place cell,Place cell,10,3,10,1
+37, C037,Not place cell,Not place cell,Not place cell,Not place cell,0,0,0,0
+38, C038,Not place cell,Not place cell,Not place cell,Not place cell,21,2,11,1
+39, C039,Not place cell,Not place cell,Not place cell,Not place cell,27,1,11,0
+40, C040,Not place cell,Not place cell,Not place cell,Not place cell,26,1,7,1
+41, C041,Not place cell,Place cell,Place cell,Place cell,16,4,3,0
+42, C042,Not place cell,Not place cell,Not place cell,Not place cell,25,1,4,0
+43, C043,Not place cell,Not place cell,Not place cell,Not place cell,15,2,13,0
+44, C044,Not place cell,Not place cell,Not place cell,Not place cell,3,3,4,5
+45, C045,Not place cell,Not place cell,Not place cell,Not place cell,23,1,8,1
+46, C046,Not place cell,Not place cell,Not place cell,Not place cell,4,2,0,0
+47, C047,Not place cell,Not place cell,Not place cell,Not place cell,21,3,11,0
+48, C048,Not place cell,Not place cell,Not place cell,Not place cell,18,4,13,1
+49, C049,Not place cell,Not place cell,Not place cell,Not place cell,32,2,14,2
+50, C050,Not place cell,Not place cell,Not place cell,Not place cell,13,0,8,9
+51, C051,Not place cell,Not place cell,Not place cell,Not place cell,16,0,10,0
+52, C052,Not place cell,Not place cell,Not place cell,Not place cell,15,0,24,0
+53, C053,Not place cell,Not place cell,Not place cell,Not place cell,15,1,6,1
+54, C054,Not place cell,Not place cell,Not place cell,Not place cell,17,3,4,0
+55, C055,Not place cell,Not place cell,Not place cell,Not place cell,4,0,5,0
+56, C056,Not place cell,Place cell,Place cell,Place cell,28,2,11,11
+57, C057,Not place cell,Not place cell,Not place cell,Not place cell,35,2,15,0
+58, C058,Not place cell,Not place cell,Not place cell,Not place cell,5,1,3,2
+59, C059,Not place cell,Not place cell,Not place cell,Not place cell,27,3,6,3
+60, C060,Not place cell,Not place cell,Not place cell,Not place cell,1,1,12,1
+61, C061,Not place cell,Not place cell,Not place cell,Not place cell,27,1,20,10
+62, C062,Not place cell,Not place cell,Not place cell,Not place cell,20,2,18,0
+63, C063,Not place cell,Place cell,Place cell,Place cell,25,4,11,0
+64, C064,Not place cell,Not place cell,Not place cell,Not place cell,33,2,5,0
+65, C065,Not place cell,Not place cell,Not place cell,Not place cell,31,1,24,11
+66, C066,Not place cell,Not place cell,Not place cell,Not place cell,14,3,11,0
+67, C067,Not place cell,Not place cell,Not place cell,Not place cell,5,0,3,0
+68, C068,Not place cell,Place cell,Place cell,Place cell,22,2,4,0
+69, C069,Not place cell,Not place cell,Not place cell,Not place cell,13,6,8,17
+70, C070,Not place cell,Not place cell,Not place cell,Not place cell,23,4,12,9
+71, C071,Not place cell,Not place cell,Not place cell,Not place cell,12,0,9,0
+72, C072,Not place cell,Not place cell,Not place cell,Not place cell,31,2,24,0
+73, C073,Not place cell,Not place cell,Not place cell,Not place cell,18,0,16,13
+74, C074,Not place cell,Not place cell,Not place cell,Not place cell,18,2,7,0
+75, C075,Not place cell,Not place cell,Not place cell,Not place cell,17,0,12,0
+76, C076,Not place cell,Not place cell,Not place cell,Not place cell,17,2,12,11
+77, C077,Not place cell,Not place cell,Not place cell,Not place cell,28,4,21,0
+78, C078,Not place cell,Not place cell,Not place cell,Not place cell,21,3,6,0
+79, C079,Not place cell,Not place cell,Not place cell,Not place cell,23,1,23,0
+80, C080,Not place cell,Not place cell,Not place cell,Not place cell,13,3,20,9
+81, C081,Not place cell,Not place cell,Not place cell,Not place cell,23,1,16,2
+82, C082,Not place cell,Not place cell,Not place cell,Not place cell,4,5,6,0
+83, C083,Not place cell,Place cell,Place cell,Place cell,8,2,14,13
+84, C084,Not place cell,Not place cell,Not place cell,Not place cell,3,0,4,4
+85, C085,Not place cell,Not place cell,Not place cell,Not place cell,32,9,26,2
+86, C086,Not place cell,Not place cell,Not place cell,Not place cell,19,3,8,0
+87, C087,Not place cell,Not place cell,Not place cell,Not place cell,0,1,9,4
+88, C088,Not place cell,Place cell,Place cell,Place cell,24,1,18,0
+89, C089,Not place cell,Place cell,Place cell,Place cell,17,0,14,4
+90, C090,Not place cell,Not place cell,Not place cell,Not place cell,21,1,10,0
+91, C091,Not place cell,Not place cell,Not place cell,Not place cell,3,0,2,0
+92, C092,Not place cell,Not place cell,Not place cell,Not place cell,7,1,10,10
+93, C093,Not place cell,Not place cell,Not place cell,Not place cell,3,1,0,0
+94, C094,Not place cell,Not place cell,Not place cell,Not place cell,3,2,1,4
+95, C095,Not place cell,Not place cell,Not place cell,Not place cell,9,0,2,3
+96, C096,Not place cell,Not place cell,Not place cell,Not place cell,7,0,3,0
+97, C097,Not place cell,Place cell,Place cell,Place cell,33,3,7,0
+98, C098,Not place cell,Not place cell,Not place cell,Not place cell,4,0,7,5
+99, C099,Not place cell,Not place cell,Not place cell,Not place cell,15,0,10,0
+100, C100,Not place cell,Not place cell,Not place cell,Not place cell,24,1,25,1
+101, C101,Not place cell,Place cell,Place cell,Place cell,17,3,10,10
+102, C102,Not place cell,Not place cell,Not place cell,Not place cell,8,1,3,0
+103, C103,Not place cell,Not place cell,Not place cell,Not place cell,6,0,5,0
+104, C104,Not place cell,Not place cell,Not place cell,Not place cell,6,0,0,0
+105, C105,Not place cell,Not place cell,Not place cell,Not place cell,2,0,4,0
+106, C106,Not place cell,Not place cell,Not place cell,Not place cell,8,1,4,5
+107, C107,Not place cell,Not place cell,Not place cell,Not place cell,16,8,4,0
+108, C108,Not place cell,Not place cell,Not place cell,Not place cell,19,0,14,0
+109, C109,Not place cell,Not place cell,Not place cell,Not place cell,14,0,8,3
+110, C110,Not place cell,Not place cell,Not place cell,Not place cell,5,2,3,8
+111, C111,Not place cell,Not place cell,Not place cell,Not place cell,12,3,6,0
+112, C112,Not place cell,Not place cell,Not place cell,Not place cell,18,2,6,0
+113, C113,Not place cell,Not place cell,Not place cell,Not place cell,13,0,2,0
+114, C114,Not place cell,Not place cell,Not place cell,Not place cell,5,0,5,0
+115, C115,Not place cell,Not place cell,Not place cell,Not place cell,13,1,6,3
+116, C116,Not place cell,Not place cell,Not place cell,Not place cell,21,0,8,8
+117, C117,Not place cell,Not place cell,Not place cell,Not place cell,14,1,3,0
+118, C118,Not place cell,Not place cell,Not place cell,Not place cell,13,2,7,2
+119, C119,Not place cell,Not place cell,Not place cell,Not place cell,7,2,7,0
+120, C120,Not place cell,Not place cell,Not place cell,Not place cell,24,1,32,7
+121, C121,Not place cell,Not place cell,Not place cell,Not place cell,3,3,18,0
+122, C122,Not place cell,Not place cell,Not place cell,Not place cell,5,4,2,6
+123, C123,Not place cell,Not place cell,Not place cell,Not place cell,13,0,3,0
+124, C124,Not place cell,Not place cell,Not place cell,Not place cell,11,0,6,0
+125, C125,Not place cell,Place cell,Place cell,Place cell,15,3,17,15
+126, C126,Not place cell,Place cell,Place cell,Place cell,26,3,24,0
+127, C127,Not place cell,Place cell,Place cell,Place cell,19,3,22,0
+128, C128,Not place cell,Not place cell,Not place cell,Not place cell,18,2,16,15
+129, C129,Not place cell,Not place cell,Not place cell,Not place cell,4,0,2,4
+130, C130,Not place cell,Place cell,Place cell,Place cell,22,0,22,9
+131, C131,Not place cell,Not place cell,Not place cell,Not place cell,2,0,5,7
+132, C132,Not place cell,Not place cell,Not place cell,Not place cell,8,0,5,0
+133, C133,Not place cell,Not place cell,Not place cell,Not place cell,5,2,12,0
+134, C134,Not place cell,Place cell,Place cell,Place cell,10,3,1,2
