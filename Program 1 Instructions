@@ -1,7 +1,21 @@
 **Program 1 Instructions and Pseudocode**
 
-This program cleans the raw behavioural data, and interpolates behavioural data at the Ca imaging times. 
+This program cleans the raw behavioural data, and interpolates behavioural data at the Ca imaging times. It does so for a single session. 
+
+The input is the behavioural data for the session (.xslx file) and th
 
 **Instructions**
-1. 
+1. Insert the row numbers of the start of the Ca 
+
+
+**Pseudocode**
+1. Read in behavioural data for the session
+2. Clean behavioural dta by replacing missing values with a zero
+3. Read in Ca imaging data for the session and reindex
+4. Determine the start and end times of the Ca imaging data
+5. If necessary, delete Ca imaging data for end of session so that it lies within the behavioural data time range
+6. Interpolate grid positions, speeds and locations at Ca imaging data times from behavioural data
+7. Calculate speeds at Ca imaging times from interpolated position data
+8. Combine Ca imaging data and interpolated behavioural data into a single dataframe
+9. Write combined dataframe to output file
 
