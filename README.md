@@ -1,7 +1,10 @@
 # STC
 **Python Data Pipeline for “Synaptic tagging and capture underlie neuronal co-allocation and temporal association memory in behaving mice” Paper Data Analysis**
+
 **Written for Python in Jupyter (v7.0.6)**
+
 **Tested on MacBook Pro running MacOS Big Sur v.11.6.1, M1 chip, 16GB RAM**
+
 **No non-standard hardware required**
 
 This set of programs processes raw Ca2+ imaging data and raw mouse behavioural data to: (i) identify place cells in the raw Ca2+ imaging data; (iii) determine rate maps for the activities of each cell in each session; and (iv) determine the correlations between rate maps across sessions. 
