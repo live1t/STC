@@ -2,10 +2,12 @@
 
 This program cleans the raw behavioural data, and interpolates behavioural data at the Ca imaging times. It does so for a single session. 
 
-The input is the behavioural data for the session (.xslx file) and th
+The input is the behavioural data for the session (.xslx file output by Ethnovision) and the raw Calcium imaging data for all sessions from a mouse (.csv file output by Inscopix Data Processing Software)
 
 **Instructions**
-1. Insert the row numbers of the start of the Ca 
+1. Insert the row numbers of the start of the session and end of the session in Ca imaging data
+2. Insert your file pathways and names for the behavioural data file and Ca imaging file
+3. Insert your output 
 
 
 **Pseudocode**
