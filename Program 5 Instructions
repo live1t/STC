@@ -5,9 +5,9 @@ This program takes as input the Gaussian filtered ratemaps all sessions for a mo
 There are two versions of this program: one for mice with four sessions of data; and one for mice with six sessions of data.  
 
 **Instructions**
-1. Insert the locations of the input files and the output file in cell 2
-2. Define variables in cell 3. Most of these are unecessary.
-3. Define the cell to be plotted in cell X
+1. Insert the locations of the input files and the output file in cell 3
+2. Define variables in cell 3. Most of these are unecessary, other than Grid size.
+3. Define the cell to be plotted in cell 10
 4. Run the program
 
 **Pseudocode**
