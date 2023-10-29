@@ -1,23 +1,18 @@
 **Program 3 Instructions and Pseudocode**
 
-This program... 
-
-The input is 
+This program takes as input the combined Ca imaging and interpolated behavioural data, and the place cell identifications, determines the total per-session activity for each cell. It creates a combined table of the total activity and the place cell identification. 
 
 **Instructions**
-1. Insert the row numbers of the start of the session and end of the session in Ca imaging data in cell 3
-2. Insert your file pathways and names for the behavioural data file and Ca imaging file in cell 4
-3. Insert your output file pathway and filename in cell 4
+1. Insert the locations of the input files and the output file in cell 2
+2. Insert the Mouse ID in cell 2
+3. Define variables in cell 3. These include: whether or not pruning is applied and the thresholds for pruning (set to on); whether or not the pruning is average speed based (set to off); the time between Ca imaging samples (set to 0.049962). See program 2 instructions for further details.
 4. Run the program
 
-
 **Pseudocode**
-1. Read in behavioural data for the session
-2. Clean behavioural dta by replacing missing values with a zero
-3. Read in Ca imaging data for the session and reindex
-4. Determine the start and end times of the Ca imaging data
-5. If necessary, delete Ca imaging data for end of session so that it lies within the behavioural data time range
-6. Interpolate grid positions, speeds and locations at Ca imaging data times from behavioural data
-7. Calculate speeds at Ca imaging times from interpolated position data
-8. Combine Ca imaging data and interpolated behavioural data into a single dataframe
-9. Write combined dataframe to output file
+1. Read in the combined Ca imaging and interpolated behavioural data for all sessions for the mouse
+2. Drop unecessary columns and rename columns
+3. Prune data and remove unecessary columns
+4. Count cell activations for cell cell in each session
+5. Read in place cell identification data
+6. Combine place cell identification data and cell activation count into a single dataframe
+7. Write combined dataframe to the output file
