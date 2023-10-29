@@ -1,20 +1,21 @@
-**Program 3 Instructions and Pseudocode**
+**Program 4 Instructions and Pseudocode**
 
-This program takes as input the combined Ca imaging and interpolated behavioural data, and the place cell identifications, determines the total per-session activity for each cell. It creates a combined table of the total activity and the place cell identification. 
+This program takes as input the combined Ca imaging and interpolated behavioural data for all sessions for a mouse, and determines raw and Gaussian filtered ratemaps for the cell activities. 
 
 There are two versions of this program: one for mice with four sessions of data; and one for mice with six sessions of data.  
 
 **Instructions**
 1. Insert the locations of the input files and the output file in cell 2
-2. Insert the Mouse ID in cell 2
-3. Define variables in cell 3. These include: whether or not pruning is applied and the thresholds for pruning (set to on); whether or not the pruning is average speed based (set to off); the time between Ca imaging samples (set to 0.049962). See program 2 instructions for further details.
+2. Define variables in cell 3. These include: the standard deviation of teh Gaussian filter (set to 2 bins); whether or not pruning is applied and the thresholds for pruning (set to on); whether or not the pruning is average speed based (set to off); See program 2 instructions for further details.
 4. Run the program
 
 **Pseudocode**
-1. Read in the combined Ca imaging and interpolated behavioural data for all sessions for the mouse
-2. Drop unecessary columns and rename columns
-3. Prune data and remove unecessary columns
-4. Count cell activations for cell cell in each session
-5. Read in place cell identification data
-6. Combine place cell identification data and cell activation count into a single dataframe
-7. Write combined dataframe to the output file
+For each session:
+1. Read in the combined Ca imaging and interpolated behavioural data for the session
+2. Apply pruning
+3. Determine bin occupancy and occupancy probabilities
+4. Calculate cell activations per bin for each cell
+5. Calculate the raw ratemap for each cell by dividing activations per bin by the occupancy time
+6. Write raw ratemaps to a file
+7. Apply Gaussian filtering to raw ratemaps
+8. Write Gaussian filtered ratemaps to file
