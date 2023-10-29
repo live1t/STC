@@ -10,7 +10,6 @@ The input is the combined Ca imaging and interpolated behavioural data for all s
 3. Define variables in cell 4. These are: the number of shuffles to be performed (set at 2000); the gridsize (set at 16 by 16); the time between each Ca imaging sample (set at XXXX); whether data pruning is applied (set to 1, i.e., pruning is applied); whether average speed-based pruning is applied (set to 0, i.e., not applied); defining a spike threshold for counting events in the Ca imaging data (set to 5); what the threshold speed is for determining exploration (set to 0); the threshld for identifying place cells, i.e., the top % that the real spatial information needs to be in (set to top 1%).
 4. Run the program
 
-
 **Pseudocode**
 For each session:
 1. Read in combined Ca imagining and interpolated behavioural data for the session
