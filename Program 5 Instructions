@@ -1,1 +1,17 @@
+**Program 5 Instructions and Pseudocode**
 
+This program takes as input the Gaussian filtered ratemaps all sessions for a mouse, and determines the correlations of the ratemaps between sessions 1 and 3, and sessions 2 and 4. It also plots activity maps for one cell. 
+
+There are two versions of this program: one for mice with four sessions of data; and one for mice with six sessions of data.  
+
+**Instructions**
+1. Insert the locations of the input files and the output file in cell 2
+2. Define variables in cell 3. Most of these are unecessary.
+3. Define the cell to be plotted in cell X
+4. Run the program
+
+**Pseudocode**
+1. Read in Gaussian filtered ratemaps for all sessions for the mouse
+2. Calculate correlatons between: (i) session 1 and session 3; and (ii) session 2 and session 4
+3. Write correlations to ouput file
+4. Plot ratemaps for defined cell
