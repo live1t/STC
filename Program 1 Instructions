@@ -7,7 +7,8 @@ The input is the behavioural data for the session (.xslx file output by Ethnovis
 **Instructions**
 1. Insert the row numbers of the start of the session and end of the session in Ca imaging data
 2. Insert your file pathways and names for the behavioural data file and Ca imaging file
-3. Insert your output 
+3. Insert your output file pathway and filename
+4. Run the program
 
 
 **Pseudocode**
