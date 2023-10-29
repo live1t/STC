@@ -1,22 +1,23 @@
 **Program 2 Instructions and Pseudocode**
 
-This program xxxx. 
+This program identifies place cells for a mouse based on a spatial information calculation and comparison to shuffled data. 
 
 The input is the combined Ca imaging and interpolated behavioural data for all sessions for a given mouse output by program one.
 
 **Instructions**
-1. Insert your file pathways and names for the behavioural data file and Ca imaging file in cell 4
-2. Insert your output file pathway and filename in cell 4
-3. Run the program
+1. Insert your file pathways and names for the combined Ca imaging and behavioural data for each session in cell 3
+2. Insert your output file pathway and filename in cell 3
+3. Define variables in cell 4. These are: the number of shuffles to be performed (set at 2000); the gridsize (set at 16 by 16); the time between each Ca imaging sample (set at XXXX); whether data pruning is applied (set to 1, i.e., pruning is applied); whether average speed-based pruning is applied (set to 0, i.e., not applied); defining a spike threshold for counting events in the Ca imaging data (set to 5); what the threshold speed is for determining exploration (set to 0); the threshld for identifying place cells, i.e., the top % that the real spatial information needs to be in (set to top 1%).
+4. Run the program
 
 
 **Pseudocode**
-1. Read in behavioural data for the session
-2. Clean behavioural dta by replacing missing values with a zero
-3. Read in Ca imaging data for the session and reindex
-4. Determine the start and end times of the Ca imaging data
-5. If necessary, delete Ca imaging data for end of session so that it lies within the behavioural data time range
-6. Interpolate grid positions, speeds and locations at Ca imaging data times from behavioural data
-7. Calculate speeds at Ca imaging times from interpolated position data
-8. Combine Ca imaging data and interpolated behavioural data into a single dataframe
-9. Write combined dataframe to output file
+For each session:
+1. Read in combined Ca imagining and interpolated behavioural data for the session
+2. Apply data pruning to remove small Ca imaging spikes (as defined by the threshold)
+3. Determining occupancy times per bin of the grid for the session
+4. Determine number of cell activations per bin of the grid for the session
+5. Determine real spatial informations for each cell
+6. Determined shuffled spatial informations for each cell
+7. Compare the shuffled spatial information to the real spatial information to identify place cells
+9. Write place cell identification to file
