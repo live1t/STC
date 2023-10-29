@@ -2,6 +2,8 @@
 
 This program takes as input the combined Ca imaging and interpolated behavioural data, and the place cell identifications, determines the total per-session activity for each cell. It creates a combined table of the total activity and the place cell identification. 
 
+There are two versions of this program: one for mice with four sessions of data; and one for mice with six sessions of data.  
+
 **Instructions**
 1. Insert the locations of the input files and the output file in cell 2
 2. Insert the Mouse ID in cell 2
